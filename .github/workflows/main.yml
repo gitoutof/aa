@@ -49,6 +49,6 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: /home/runner/work/aa/artifact/
+          path: /home/runner/work/aa/artifact/*
           
         
