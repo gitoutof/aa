@@ -37,7 +37,7 @@ jobs:
       
       # Upload an individual File
       - name: run upload an file
-      - run: mkdir -p path/to artifact
+      - run: mkdir -p path/to/artifact
       - run: echo hello >path/to/artifact/world.txt
       
       # - uses: actions/upload-artifact@v3
