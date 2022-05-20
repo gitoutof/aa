@@ -35,7 +35,9 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           pwd
-          mkdir /home/worker/runner/aa/artifact
+          mkdir /home/runner/work/aa/artifact
+          echo hello >/home/runner/work/aa/artifact/world.txt
+          cat /home/runner/work/aa/artifact/world.txt
       
       # Upload an individual File
       #- name: run upload an file
