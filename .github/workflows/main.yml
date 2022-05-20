@@ -35,6 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           pwd
+          mkdir /home/worker/runner/aa/artifact
       
       # Upload an individual File
       #- name: run upload an file
