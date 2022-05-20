@@ -34,10 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          pwd
       
       # Upload an individual File
-      - name: run upload an file
-      - run: pwd
+      #- name: run upload an file
+      #- run: pwd
       #- run: mkdir path/to/artifact
       #- run: echo hello >path/to/artifact/world.txt
       
