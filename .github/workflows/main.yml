@@ -41,6 +41,7 @@ jobs:
           echo Good one. >/home/runner/work/aa/artifact/good.txt
           ls -l
           ls -l /home/runner/work/aa/artifact
+          ls -l /home/runner/work/aa
           cat /home/runner/work/aa/artifact/good.txt
       
       # Upload an individual File
